@@ -37,3 +37,6 @@
   - /handins with parameter accountId
 
 **Florian Bress:**
+- Added Account Repo Query
+- Added Account Endpoints
+- (ProjectRepository, PublicationRepository, StatisticController)
