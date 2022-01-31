@@ -25,6 +25,8 @@
   - Coordination with other groups (especially the Database Team)
 
 **Connar Mordelt:**
+  - Added HandinController
+  - Added HandinRepository 
 
 **Jesse Klotz:**
   - Setup Java / Maven / Spring Project
