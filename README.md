@@ -27,5 +27,13 @@
 **Connar Mordelt:**
 
 **Jesse Klotz:**
+  - Setup Java / Maven / Spring Project
+  - Setup Database
+  - Add mock data to Database
+  - Created Data Models
+  - Added Account Repo Query
+  - Added Account Endpoints
+  - /accounts
+  - /handins with parameter accountId
 
 **Florian Bress:**
