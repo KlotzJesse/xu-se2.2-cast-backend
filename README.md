@@ -18,14 +18,14 @@
 
 - Task Distribution:
 
-**Fabian Zinn:
+**Fabian Zinn:**
   - Functional design of the data models and endpoints
   - Development of the business logic based on the functional requirements
   - Comparison of the implementation with the functional requirements
   - Coordination with other groups (especially the Database Team)
 
-**Connar Mordelt:
+**Connar Mordelt:**
 
-**Jesse Klotz:
+**Jesse Klotz:**
 
-**Florian Bress:
+**Florian Bress:**
