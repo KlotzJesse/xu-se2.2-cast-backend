@@ -4,11 +4,6 @@ import com.xu.se22.castbackend.models.Handin;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-
-public class HandinRepository {
-
-
-
 public interface HandinRepository extends CrudRepository<Handin, Integer> {
 
     @Query("select h from handins h WHERE h.account.AccountID = ?1 AND h.handindate = (SELECT max(h2.handindate) FROM handins h2 WHERE h.account = h2.account)")
@@ -26,6 +21,4 @@ public interface HandinRepository extends CrudRepository<Handin, Integer> {
     @Query("select DISTINCT h.account.AccountID, max(h.handindate) from handins h WHERE h.project IS NOT NULL GROUP BY h.account.AccountID")
     String[] findHandInsFroProjects();
 
-}
-    
 }
